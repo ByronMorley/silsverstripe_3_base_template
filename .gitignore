@@ -1,0 +1,53 @@
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore all environment files
+_ss_environment.php
+
+# ignore all node files
+node_modules/
+
+# ignore all assets, need to upload seperately
+/assets/
+
+# ignore build tools
+/tools/phing-metadata
+
+/.idea/
+
+# remove below this after cloning
+
+
+/betterbuttons/
+/booteek/
+/building-blocks/
+/chunkeduploadfield/
+/colorpicker/
+/components/
+/cookie-club/
+/display_logic/
+/userforms/
+/composer/
+/framework/
+/cms/
+/siteconfig/
+/email-helpers/
+/files/
+/googlesitemaps/
+/gridfieldextensions/
+/linkable/
+/mailgunner/
+/moderno-admin/
+/nocaptcha/
+/quickaddnew/
+/reports/
+/robots/
+/select2/
+/segment-field/
+/sortablefile/
+/spamprotection/
+/translatable/
+/twitter/
+/vendor/
+/focuspoint/
+

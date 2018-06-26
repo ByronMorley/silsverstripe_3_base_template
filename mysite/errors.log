@@ -1,0 +1,72 @@
+[15-Jan-2018 18:03:21] Warning at \framework\core\manifest\ClassLoader.php line 77: require_once(D:\Business\Atebol\Projects\Silverstripe_template/mysite/code/Pages/Page.php): failed to open stream: No such file or directory (http://localhost/Silverstripe_template/)
+[15-Jan-2018 18:03:51] Warning at \framework\core\manifest\ClassLoader.php line 77: require_once(D:\Business\Atebol\Projects\Silverstripe_template/mysite/code/Pages/Page.php): failed to open stream: No such file or directory (http://localhost/Silverstripe_template/)
+[15-Jan-2018 18:03:52] Warning at \framework\core\manifest\ClassLoader.php line 77: require_once(D:\Business\Atebol\Projects\Silverstripe_template/mysite/code/Pages/Page.php): failed to open stream: No such file or directory (http://localhost/Silverstripe_template/)
+[15-Jan-2018 19:02:06] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/)
+[15-Jan-2018 19:02:07] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/users/lock)
+[15-Jan-2018 19:56:28] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/)
+[15-Jan-2018 19:56:29] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/users/lock)
+[15-Jan-2018 19:58:01] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/)
+[15-Jan-2018 19:58:02] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/users/lock)
+[15-Jan-2018 20:04:26] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/)
+[15-Jan-2018 20:04:27] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: SSL certificate problem: unable to get local issuer certificate (http://localhost/Silverstripe_template/users/lock)
+[16-Jan-2018 08:56:46] Warning at \framework\core\manifest\ClassLoader.php line 77: require_once(D:\Business\Atebol\Projects\Silverstripe_template/mysite/code/Pages/Model/ContactPage.php): failed to open stream: No such file or directory (http://localhost/Silverstripe_template/admin/pages)
+[30-Jan-2018 15:54:15] Error at \framework\core\Object.php line 780: Uncaught Exception: Object->__call(): the method 'render' does not exist on 'Page', or the method is not public. (http://localhost/Silverstripe_template/contact-us/)
+[30-Jan-2018 15:54:59] Error at \framework\core\Object.php line 780: Uncaught Exception: Object->__call(): the method 'render' does not exist on 'Page', or the method is not public. (http://localhost/Silverstripe_template/)
+[30-Jan-2018 15:56:19] Error at \framework\core\Object.php line 780: Uncaught Exception: Object->__call(): the method 'render' does not exist on 'ContactPage', or the method is not public. (http://localhost/Silverstripe_template/contact-us/)
+[30-Apr-2018 15:40:10] Error at \mailgunner\src\Mailer.php line 95: Mailgun error: The parameters passed to the API were invalid. Check your inputs! 'from' parameter is missing (http://localhost/Silverstripe_template/dev/tasks/TestEmailTask)
+[30-Apr-2018 16:30:14] Error at \framework\model\connect\DBConnector.php line 55: Uncaught SS_DatabaseException: Couldn't run query:
+
+SELECT DISTINCT "SiteConfig"."ClassName", "SiteConfig"."LastEdited", "SiteConfig"."Created", "SiteConfig"."Title", "SiteConfig"."Tagline", "SiteConfig"."Theme", "SiteConfig"."CanViewType", "SiteConfig"."CanEditType", "SiteConfig"."CanCreateTopLevelType", "SiteConfig"."Locale", "SiteConfig"."ModernoLinkColor", "SiteConfig"."ModernoLogoBkgColor", "SiteConfig"."ModernoHighlightColor", "SiteConfig"."ModernoProfileLinkColor", "SiteConfig"."ModernoApplicationName", "SiteConfig"."ModernoApplicationLink", "SiteConfig"."ModernoLogoImageWidth", "SiteConfig"."ModernoLogoImageHeight", "SiteConfig"."ModernoLogoImageResize", "SiteConfig"."ModernoLoadingImageWidth", "SiteConfig"."ModernoLoadingImageHeight", "SiteConfig"."ModernoLoadingImageResize", "SiteConfig"."ModernoSupportRetina", "SiteConfig"."ModernoHideSiteName", "SiteConfig"."ModernoLogoImageID", "SiteConfig"."ModernoLoadingImageID", "SiteConfig"."ID", 
+			CASE WHEN "SiteConfig"."ClassName" IS NOT NULL THEN "SiteConfig"."ClassName"
+			ELSE 'SiteConfig' END AS "RecordClassName"
+
+FROM "SiteConfig"
+
+WHERE ("SiteConfig"."Locale" = ?)
+
+LIMIT 1
+
+Unknown column 'SiteConfig.ModernoLinkColor' in 'field list' (http://localhost/poetry2.0/)
+[17-May-2018 14:02:23] Error at \framework\control\injector\InjectionCreator.php line 14: Uncaught ReflectionException: Class building-blocks does not exist (http://localhost/Silverstripe_template/dev/build?flush=&flushtoken=3de7afac635ea9808d1e2d3738a7ac2b)
+[04-Jun-2018 20:52:46] Error at \framework\model\DataObject.php line 1737: Uncaught Exception: No has_one found on class 'SaladSlide', the has_many relation from 'ImageBanner' to 'SaladSlide' requires a has_one on 'SaladSlide' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/1/edit?Locale=en_GB)
+[05-Jun-2018 11:40:37] Error at \framework\model\connect\DBConnector.php line 55: Uncaught SS_DatabaseException: Couldn't run query:
+
+SELECT DISTINCT "SaladBanner"."ClassName", "SaladBanner"."LastEdited", "SaladBanner"."Created", "SaladBanner"."Title", "SaladBanner"."SortOrder", "SaladBanner"."ShowTitle", "SaladBanner"."AutoPlay", "SaladBanner"."Delay", "SaladBanner"."TransitionDuration", "SaladBanner"."Transition", "SaladBanner"."Controls", "SaladBanner"."TackLocation", "SaladBanner"."ID", 
+			CASE WHEN "SaladBanner"."ClassName" IS NOT NULL THEN "SaladBanner"."ClassName"
+			ELSE 'SaladBanner' END AS "RecordClassName"
+
+FROM "SaladBanner"
+
+WHERE ("SaladBanner"."ID" = ?)
+
+ORDER BY "SaladBanner"."SortOrder" ASC
+
+LIMIT 1
+
+Unknown column 'SaladBanner.AutoPlay' in 'field list' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/1/edit?Locale=en_GB)
+[05-Jun-2018 11:40:56] Error at \framework\model\connect\DBConnector.php line 55: Uncaught SS_DatabaseException: Couldn't run query:
+
+SELECT DISTINCT "SaladBanner"."ClassName", "SaladBanner"."LastEdited", "SaladBanner"."Created", "SaladBanner"."Title", "SaladBanner"."SortOrder", "SaladBanner"."ShowTitle", "SaladBanner"."AutoPlay", "SaladBanner"."Delay", "SaladBanner"."TransitionDuration", "SaladBanner"."Transition", "SaladBanner"."Controls", "SaladBanner"."TackLocation", "SaladBanner"."ID", 
+			CASE WHEN "SaladBanner"."ClassName" IS NOT NULL THEN "SaladBanner"."ClassName"
+			ELSE 'SaladBanner' END AS "RecordClassName"
+
+FROM "SaladBanner"
+
+WHERE ("SaladBanner"."ID" = ?)
+
+ORDER BY "SaladBanner"."SortOrder" ASC
+
+LIMIT 1
+
+Unknown column 'SaladBanner.AutoPlay' in 'field list' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/1/edit?Locale=en_GB)
+[05-Jun-2018 11:46:13] Error at \framework\model\DataObject.php line 1737: Uncaught Exception: No has_one found on class 'SaladSlide', the has_many relation from 'ImageBanner' to 'SaladSlide' requires a has_one on 'SaladSlide' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/1/edit?Locale=en_GB)
+[05-Jun-2018 11:47:13] Error at \framework\model\DataObject.php line 1737: Uncaught Exception: No has_one found on class 'SaladSlide', the has_many relation from 'ImageBanner' to 'SaladSlide' requires a has_one on 'SaladSlide' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/1/edit?Locale=en_GB)
+[05-Jun-2018 11:50:38] Error at \framework\model\DataObject.php line 1737: Uncaught Exception: No has_one found on class 'SaladSlide', the has_many relation from 'ImageBanner' to 'SaladSlide' requires a has_one on 'SaladSlide' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/add-multi-class/ImageBanner/ItemEditForm?Locale=en_GB)
+[05-Jun-2018 11:51:02] Error at \framework\model\DataObject.php line 1737: Uncaught Exception: No has_one found on class 'SaladSlide', the has_many relation from 'ImageBanner' to 'SaladSlide' requires a has_one on 'SaladSlide' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/add-multi-class/ImageBanner/ItemEditForm?Locale=en_GB)
+[05-Jun-2018 12:01:06] Error at \gridfieldextensions\code\GridFieldOrderableRows.php line 132: Uncaught Exception: Couldn't find the sort field 'SortOrder' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/4?Locale=en_GB)
+[05-Jun-2018 12:02:27] Error at \gridfieldextensions\code\GridFieldOrderableRows.php line 132: Uncaught Exception: Couldn't find the sort field 'SortOrder' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/5?Locale=en_GB)
+[05-Jun-2018 12:04:55] Error at \gridfieldextensions\code\GridFieldOrderableRows.php line 132: Uncaught Exception: Couldn't find the sort field 'SortOrder' (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/5?Locale=en_GB)
+[05-Jun-2018 13:44:25] Error at \framework\core\Object.php line 780: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'ImageSlide', or the method is not public. (http://localhost/Silverstripe_template/home/sliders/mulitple/)
+[05-Jun-2018 14:17:15] Error at \framework\control\injector\InjectionCreator.php line 14: Uncaught ReflectionException: Class QuoteBanner does not exist (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/9/ItemEditForm/field/Slides/add-multi-class/QuoteSlide?Locale=en_GB)
+[05-Jun-2018 14:17:22] Error at \framework\control\injector\InjectionCreator.php line 14: Uncaught ReflectionException: Class QuoteBanner does not exist (http://localhost/Silverstripe_template/admin/Banners/SaladBanner/EditForm/field/SaladBanner/item/9/ItemEditForm/field/Slides/add-multi-class/QuoteSlide?Locale=en_GB)
+[26-Jun-2018 12:26:05] Error at \framework\core\ClassInfo.php line 284: Uncaught ReflectionException: Class SkirtingBoard does not exist (http://localhost/poetry/)
